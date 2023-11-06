@@ -16,4 +16,8 @@ class Producto {
         val stockString = readLine() ?: "0"
         this.stock = stockString.toInt()
     }
+
+//    fun actualizarStock(cant:Int){
+//        this.stock = cant
+//    }
 }
