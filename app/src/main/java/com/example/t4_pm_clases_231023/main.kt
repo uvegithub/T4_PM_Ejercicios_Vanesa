@@ -35,6 +35,17 @@ fun championsLeage(equipos:MutableList<Futbol>):String{
         equipos.removeAt(indice2)
     }
     return res
+
+//    for(i in 1..equipos.size/2){
+//        var indice1 = equipos.random(Random(equipos.size-1))
+//        res += indice1.toString()
+//        equipos.remove(indice1)
+//        var indice2 = equipos.random(Random(equipos.size-1))
+//
+//        res += " - " +indice2.toString() + " \n "
+//        equipos.remove(indice2)
+//    }
+//    return res
 }
 fun main() {
 
@@ -179,26 +190,82 @@ fun main() {
 
     /* Ejercicio 12. Crea una lista con 16 equipos de fútbol de países distintos (no puede
 haber más de cuatro equipos por país) **/
-    var lista_equipos : MutableList<Futbol> = mutableListOf()
-    var realma = Futbol ("Real Madrid", "España")
-    var bar = Futbol ("Barca", "España")
-    var bet = Futbol ("Betis", "Sevillandia")
-    var bit = Futbol ("Bit", "Landia")
-
-    lista_equipos.add(realma)
-    println("equipo agregado")
-    lista_equipos.add(bar)
-    println("equipo agregado")
-    lista_equipos.add(bet)
-    println("equipo agregado")
-    lista_equipos.add(bit)
-    println("equipo agregado")
+//    var lista_equipos : MutableList<Futbol> = mutableListOf()
+//    var realma = Futbol ("Real Madrid", "España")
+//    var bar = Futbol ("Barca", "España")
+//    var bet = Futbol ("Betis", "Sevillandia")
+//    var bit = Futbol ("Bit", "Landia")
+//
+//    lista_equipos.add(realma)
+//    println("equipo agregado")
+//    lista_equipos.add(bar)
+//    println("equipo agregado")
+//    lista_equipos.add(bet)
+//    println("equipo agregado")
+//    lista_equipos.add(bit)
+//    println("equipo agregado")
 
     /* Ejercicio 13. Crea la función championsLeague() que recibe como entrada la lista con
 los 16 equipos y muestra por pantalla un sorteo de octavos* de final de la Champions.
 *(no tengas en cuenta que equipos de un mismo país no pueden enfrentarse) **/
-    println(championsLeage(lista_equipos))
+//    println(championsLeage(lista_equipos))
 
+    /* Ejercicio 14: Crea la clase circunferencia. El constructor primario recibirá el radio de
+la circunferencia y el secundario recibirá la posición del centro de la circunferencia y
+un punto cualquiera de la misma. Crear el método longitud() y sobrecargar el método
+toString() de forma que muestre toda la info de la circunferencia **/
+//    var c1=Circunferencia(2.0)
+//    var arrayc2_1= intArrayOf(1,2)
+//    var arrayc2_2= intArrayOf(3,4)
+//    var c2=Circunferencia(arrayc2_1, arrayc2_2)
+//    println("c1: "+c1.toString())
+//    println("c2: "+c2.toString())
 
+    /* Ejercicio 15: Crea la clase Círculo que hereda de circunferencia. Tendrá dos
+constructores, el primero recibirá el radio y el color del círculo y el segundo su centro,
+un punto cualquiera y su color. Crear el método área() y sobrecargar el método
+toString() de forma que muestre toda la info de la circunferencia  **/
+//    var c1=Circunferencia(2.0)
+//    var arrayc2_1= intArrayOf(1,2)
+//    var arrayc2_2= intArrayOf(3,4)
+//    var c2=Circunferencia(arrayc2_1, arrayc2_2)
+//    println("c1: "+c1.toString())
+//    println("c2: "+c2.toString())
+
+    /* Ejercicio 15: Crea la clase Círculo que hereda de circunferencia. Tendrá dos
+constructores, el primero recibirá el radio y el color del círculo y el segundo su centro,
+un punto cualquiera y su color. Crear el método área() y sobrecargar el método
+toString() de forma que muestre toda la info de la circunferencia  **/
+//    var c1=Circulo(2.0, "rojo")
+//    var c2=Circulo(intArrayOf(1,2), intArrayOf(3,4), "verde")
+//    println("c1: "+c1.toString())
+//    println("c2: "+c2.toString())
+
+    /* Ejercicio 16: Clase de matemáticas. Crea una clase Matemáticas con métodos para realizar
+operaciones matemáticas como sumar, restar, multiplicar y dividir. Luego, utiliza esta clase en tu
+programa principal.  **/
+//    var m=Matematicas(6,2)
+//    println(m.sumar())
+//    println(m.restar())
+//    println(m.multiplicar())
+//    println(m.dividir())
+
+    /* Ejercicio 17: Implementa las siguientes clases:
+clase Nota. Una nota contiene un identificador numérico y una línea de texto. Define
+constructor, accedentes y toString.
+clase NotaAlarma. Una nota que además contiene la hora en la que sonará la alarma. Define
+constructor, accedentes y toString.
+clase BlocNotas que modela un bloc de notas en el que se pueden introducir notas, listar
+todas las notas, eliminar una nota mediante su posición en el bloc de notas o saber cuantas
+notas contiene el bloc de notas. Debes utilizar una colección.
+clase Prueba que cree un bloc de Notas de ejemplo y pruebe las operaciones que soporta. .  **/
+
+    /* Ejercicio 10.  **/
+
+    /* Ejercicio 10.  **/
+
+    /* Ejercicio 10.  **/
+
+    /* Ejercicio 10.  **/
 
 }
