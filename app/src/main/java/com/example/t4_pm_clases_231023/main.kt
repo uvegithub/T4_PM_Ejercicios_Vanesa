@@ -259,8 +259,28 @@ clase BlocNotas que modela un bloc de notas en el que se pueden introducir notas
 todas las notas, eliminar una nota mediante su posición en el bloc de notas o saber cuantas
 notas contiene el bloc de notas. Debes utilizar una colección.
 clase Prueba que cree un bloc de Notas de ejemplo y pruebe las operaciones que soporta. .  **/
+//    var nota1=Nota(11, "druygiu")
+//    var nota2=Nota(12, "ugcvyiviruygiu")
+//    var bloc=BlockNotas()
+//
+//    bloc.introducirNota(nota1)
+//    bloc.introducirNota(nota2)
+//
+//    println(bloc.toString())
+//    bloc.contarNotas()
+//
+//    bloc.eliminarNota(nota2)
+//    println(bloc.toString())
 
-    /* Ejercicio 10.  **/
+    /* Ejercicio 18.
+Define una jerarquía de clases que permita almacenar datos sobre los
+planetas y satélites que forman parte del sistema solar ( junto con el sol).
+Algunos atributos que puede ser interesante recoger son: la masa del
+cuerpo, su diámetro medio, el período de rotación sobre el propio eje,
+período de traslación alrededor del cuerpo que orbitan, distancia media a
+ese cuerpo, excentricidad de la órbita, etc.
+Define un método que, dado un objeto del sistema solar (planeta o satélite),
+imprima toda la información de que se dispone sobre el mismo.**/
 
     /* Ejercicio 10.  **/
 
