@@ -47,6 +47,10 @@ fun championsLeage(equipos:MutableList<Futbol>):String{
 //    }
 //    return res
 }
+
+fun imprimirCuerpo(cuerp:MutableList<Any>){
+    cuerp.toString()
+}
 fun main() {
 
 //    var tierra=Planeta("Tierra", "Rocoso", 3.0f)
@@ -281,6 +285,11 @@ período de traslación alrededor del cuerpo que orbitan, distancia media a
 ese cuerpo, excentricidad de la órbita, etc.
 Define un método que, dado un objeto del sistema solar (planeta o satélite),
 imprima toda la información de que se dispone sobre el mismo.**/
+
+    var tierra = Planeta18("tierra", 20.0f, 2.0f, 3.0f, 4.0f)
+    var lista:MutableList<Any> = mutableListOf()
+    lista.add(tierra)
+    println(imprimirCuerpo(lista))
 
     /* Ejercicio 10.  **/
 
