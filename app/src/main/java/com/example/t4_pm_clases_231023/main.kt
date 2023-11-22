@@ -48,8 +48,8 @@ fun championsLeage(equipos:MutableList<Futbol>):String{
 //    return res
 }
 
-fun imprimirCuerpo(cuerp:MutableList<Any>){
-    cuerp.toString()
+fun imprimirCuerpo(cuerp:MutableList<Any>):String{
+    return cuerp.toString()
 }
 fun main() {
 
@@ -287,9 +287,11 @@ Define un método que, dado un objeto del sistema solar (planeta o satélite),
 imprima toda la información de que se dispone sobre el mismo.**/
 
     var tierra = Planeta18("tierra", 20.0f, 2.0f, 3.0f, 4.0f)
-    var lista:MutableList<Any> = mutableListOf()
-    lista.add(tierra)
-    println(imprimirCuerpo(lista))
+    var listaPlanetas:MutableList<Any> = mutableListOf()
+    listaPlanetas.add(tierra)
+    println(imprimirCuerpo(listaPlanetas))
+
+    //var sistema = Sistema_solar18(listaPlanetas)
 
     /* Ejercicio 10.  **/
 
